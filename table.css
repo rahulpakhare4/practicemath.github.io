@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #ff42a1;
+    display: flex;
+    flex-direction: row;
+}
+
+.myimagebody {
+    background-color: #ffb3de;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.forimg {
+    width: 500px;
+    height: 700px;
+    background-color: aqua;
+    margin: 20px;
+}
+
+#btnhome {
+    background-color: #ff94c9;
+    text-align: center;
+    justify-content: center;
+    margin: 1%;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    margin: 1%;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+input {
+    height: 40px;
+    width: 209px;
+    padding: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 800;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% - 50%);
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 35px;
+}
+
+p,
+#sysnum {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #d8384b;
+ }
+
+#subbtn {
+    background-color: #ff1493;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 12px;
+    margin-left: 50px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+}
+
+body {
+    background-color: #ffcff1;
+}
+
+#clear {
+    background-color: #ff1493;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 12px;
+    margin-left: 50px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+}
+
+#mynum {
+    display: inline;
+    background-color: #ff1493;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#btnhome:hover {
+    background-color: #ff6fff;
+}
+
+#subbtn:hover,
+#clear:hover {
+    background-color: #ff6fff;
+}
+
+input:focus {
+    background-color: yellow;
+  }
+
+  .overlay {
+    position: fixed;
+    width: 209px;
+    height: 50px;
+    margin-left:-78px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    background-color: #ff1493;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .overlay2 {
+    position: fixed;
+    width: 209px;
+    height: 50px;
+    margin-left:-78px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    background-color: #ff1493;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+  }
