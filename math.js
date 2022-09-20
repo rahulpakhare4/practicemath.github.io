@@ -1,6 +1,6 @@
 function starttest() {
 
-
+    getfocus()
     let inputAns = document.getElementById("in1").value;
     if (inputAns == "") {
         createRandomAddition()
@@ -173,4 +173,8 @@ function checkMultiplicationAnswer() {
         document.getElementById("result").innerHTML = "Wrong";
     }
 
+}
+
+function getfocus() {
+  document.getElementById("in1").focus();
 }
