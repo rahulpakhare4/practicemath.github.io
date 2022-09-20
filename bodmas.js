@@ -1,4 +1,5 @@
 function starttest() {
+    getfocus()
     let inputAns = document.getElementById("in1").value;
     if (inputAns == "") {
         getNumber()
@@ -98,4 +99,8 @@ function checkAnswer() {
         document.getElementById("result").innerHTML = "Wrong";
     }
 
+}
+
+function getfocus() {
+  document.getElementById("in1").focus();
 }
